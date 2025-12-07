@@ -1,2 +1,3 @@
-# Na rozšíření se pracuje /// Work in progress
-<img src="https://www.kristenkoster.com/wp-content/uploads/2008/04/under-construction.gif">
+# Skript je ve zkušebním provozu.  /// The script is in trial operation.
+<br>
+## Veškeré závady nebo nápady prosím hlašte v Issues.  ///  Please report any bugs or ideas in Issues.
