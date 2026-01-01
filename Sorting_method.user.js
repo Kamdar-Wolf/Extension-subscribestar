@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name           SubscribeStar: Sorting method (newer / older)
 // @namespace     https://github.com/Kamdar-Wolf/Extension-subscribestar
-// @version        1.4.0
+// @version        1.4.1
 // @description cs Přidá přepínač řazení (nejnovější ↔ nejstarší) na feed a stránky tvůrců na SubscribeStar.adult a umí na požádání natáhnout všechny stránky s datumovým filtrem.
 // @description    Adds a sorting switch (newest ↔ oldest) to feeds and creator pages on SubscribeStar.adult and can pull up all pages with a date filter on request.
 // @description    Extract feeds from the site
 // @author         Kamdar Wolf
-// @copyright      2025, Kamdar Wolf
+// @copyright      2025-2026, Kamdar Wolf
 // @license        Proprietary - internal use only
 // @source         https://raw.githubusercontent.com/Kamdar-Wolf/Extension-subscribestar/master/Sorting_method.user.js
 // @supportURL     https://github.com/Kamdar-Wolf/Extension-subscribestar/issues
