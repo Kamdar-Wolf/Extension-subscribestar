@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name          SubscribeStar Export (Vylepšená)
 // @namespace     https://github.com/Kamdar-Wolf/Extension-subscribestar
-// @version       1.2.0
+// @version       1.2.1
 // @description   Extract feeds from the site
 // @author        Kamdar Wolf
-// @copyright     2025, Kamdar Wolf
+// @copyright     2025-2026, Kamdar Wolf
 // @license       Proprietary - internal use only
 // @homepageURL   https://github.com/Kamdar-Wolf/Extension-subscribestar
 // @source        https://raw.githubusercontent.com/Kamdar-Wolf/Extension-subscribestar/master/Export.user.js
