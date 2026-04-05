@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "SubscribeStar Toolkit",
+  "version": "2.0.0",
+  "description": "Powerful export and sorting tools for SubscribeStar feeds",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.subscribestar.adult/*",
+        "*://*.subscribestar.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": [
+    "downloads",
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://*.subscribestar.adult/*",
+    "*://*.subscribestar.com/*",
+    "*://ss-uploads-prod.b-cdn.net/*",
+    "*://d3ts7pb9ldoin4.cloudfront.net/*"
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+  <title>SubscribeStar Toolkit</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="icon.png" alt="Logo" class="logo">
+      <h2>SubscribeStar Toolkit</h2>
+    </div>
+    
+    <div class="section card">
+      <label class="checkbox-row">
+        <input type="checkbox" id="new_only" checked>
+        <span>Stahovat jen nové (přeskočit existující)</span>
+      </label>
+      
+      <div class="input-row">
+        <label for="limit">Max. počet postů z listu</label>
+        <input type="number" id="limit" value="20" min="1" step="1">
+      </div>
+
+      <div class="filter-box">
+        <div class="input-row">
+          <label for="date_from">Starší než (Od):</label>
+          <input type="date" id="date_from">
+        </div>
+        <div class="input-row">
+          <label for="date_to">Novější než (Do):</label>
+          <input type="date" id="date_to">
+        </div>
+        <div class="filter-actions">
+          <span class="hint">Filtruje pouze při Scrape z listu</span>
+          <button id="clear_date" class="btn secondary small">Smazat Filtr</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="section actions">
+      <button id="btn_detail" class="btn primary">Stáhnout Otevřený Post</button>
+      <button id="btn_list" class="btn secondary">Automatický Scrape Aktuální Stránky</button>
+      <button id="btn_stop" class="btn danger hidden">ZASTAVIT</button>
+    </div>
+
+    <div class="section console">
+      <div class="status-header">Průběh</div>
+      <div id="status_text" class="status-msg">Čekám na akci...</div>
+      <div id="progress_wrapper" class="progress-wrapper hidden">
+        <div id="progress_bar" class="progress-bar"></div>
+      </div>
+      <div id="log_box" class="log-box"></div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
